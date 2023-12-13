@@ -5,5 +5,12 @@
     --text-color: #010101;
     --brown-color: #786247;
 
-    
+    --title-xxl: 1.875rem; /* Logo */
+    --title-xl: 1.25rem; /* Titre des pages*/
+    --titre-l: 1rem; /* Catégories sur la home page */
+    --text-s: 0.875rem;
+    --text-xs: 0.75rem; /* Extrait des articles */
+
+
+
 }
