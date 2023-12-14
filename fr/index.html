@@ -30,7 +30,7 @@
     </div>
     <div class="texte">
         <p class="texte__intro">Découvrez l’Art de Wright à l'exposition temporaire de la Fondation Cartier, Paris</p>
-        <div class="contenur">
+        <div class="conteneur">
         <h1 class="texte__principal">L'exposition temporaire de Frank Llyod Wright</h1>
         <img class="elipse"src="/public/assets/icones/Première elipse.svg" alt="element de decor">
         <h2 class="texte__date">Du 13 avril au 23 juin 2024</h2>
@@ -45,11 +45,11 @@
         </div>
 
         <div class="article">
-            <figure>
-            <img class="image__article"src="/public/img/frank-lloyd-wright-portrait.webp" alt="portrait de Frank Wright">
-            <figcaption class="description">Frank Wright</figcaption>
+            <figure class="article__item">
+            <img class="article__image"src="/public/img/frank-lloyd-wright-portrait.webp" alt="portrait de Frank Wright">
+            <figcaption class="article__image--description">Frank Wright</figcaption>
             </figure>
-            <p class="texte__article">Frank Lloyd Wright, architecte américain de renomée mondiale, connu pour son approche novatrice intégrant l'environnement naturel dans ses créations.
+            <p class="article__texte">Frank Lloyd Wright, architecte américain de renomée mondiale, connu pour son approche novatrice intégrant l'environnement naturel dans ses créations.
                 Célèbre pour sa création  “La maison sur la Casacade” ...
             </p>
             
@@ -69,20 +69,28 @@
             <img class="elipse2"src="/public/assets/icones/Ellipse 2.svg" alt="element de decor">
             <h3 class="titre__creations">Venez découvrir ses oeuvres</h3>
         </div>
-            <img src="/public/img/maison-cascade.webp" alt="Maison sur la cascade">
-            <p>La maison sur la cascade</p>
 
-            <img src="/public/img/laurent house.webp" alt="Laurent's house">
-            <p>Laurent House</p>
+        <div class="galerie">
 
-            <img src="/public/img/musee-2.webp" alt="Musee de Guggenheim">
-            <p>Musée de Guggenheim</p>
+            
+            <img class="galerie__image"src="/public/img/maison-cascade.webp" alt="Maison sur la cascade">
+            <figure class="galerie__item">La maison sur la cascade</figure>
 
-            <img src="/public/img/UnityTemple1.webp" alt="Unity temple">
-            <p>Unity temple</p>
+            
+            <img class="galerie__image"src="/public/img/laurent house.webp" alt="Laurent's house">
+            <figure class="galerie__item">Laurent House</figure>
 
-            <button>
-                <a href="/">Découvrir</a>
+            
+            <img class="galerie__image"src="/public/img/musee-2.webp" alt="Musee de Guggenheim">
+            <figure class="galerie__item">Musée de Guggenheim</figure>
+
+            
+            <img class="galerie__image"src="/public/img/UnityTemple1.webp" alt="Unity temple">
+            <figure class="galerie__item">Unity temple</figure>
+
+        </div>
+            <button class="bouton">
+                <a class="bouton__item"href="/">Découvrir</a>
             </button>
 
 
@@ -90,11 +98,11 @@
     </section>
 
     <section>
-        <header>
+        <div>
             <img src="/public/assets/icones/Line 4.svg" alt="Ligne de decor">
             <h2>Informations</h2>
             <img src="/public/assets/icones/Line 4.svg" alt="Ligne de decor">
-        </header>
+        </div>
         <p>Ouvert de 11h à 20h tous les jours, sauf lundi</p>
 
         <img src="/public/assets/icones/Map.svg" alt="Icone de maps">

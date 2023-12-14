@@ -30,9 +30,8 @@
    
 }
 
-.conteneur{
-    position: relative;
-}
+
+
 .elipse{
     margin-top: 22px;
     z-index: 1;
@@ -96,7 +95,7 @@
 
 }
 
-.description{
+.article__image--description{
     font-family: Raleway;
     font-style: italic;
     font-size: var(--text-s);
@@ -108,7 +107,7 @@
     
 }
 
-.image__article{
+.article__image{
     width: 105px;
     height: 132px;
     position: absolute;
@@ -117,7 +116,7 @@
     border-radius: 16%;
 }
 
-.texte__article{
+.article__texte{
     font-family: Lato;
     font-style: normal;
     font-size: var(--text-xs);
