@@ -1,3 +1,17 @@
 .header{
     background-color: var(--main-color);
+    position: relative;
+    margin: 0;
+}
+
+.header__logo{
+    left: var(--space1x);
+    top: var(--space2x);
+
+}
+
+.header__menu-bouton{
+    position: absolute;
+    right: var(--space2x);
+    top: var(--space1x);
 }
