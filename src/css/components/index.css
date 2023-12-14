@@ -75,7 +75,7 @@
     margin-right: var(--space2x);
 }
 
-.architecte__titre{
+.inter__titre{
     font-family: Raleway;
     font-style: semi-bold;
     font-size: var(--text-s);
@@ -146,5 +146,36 @@
     top: -20px;
 }
 
+.creations__section{
+    display: flex;
+    align-items: center;
+    margin-top: var(--space2x);
+}
 
+.elipse2{
+    margin-top: 1px;
+    z-index: 1;
+    position: relative; 
+    top: 10%; 
+    left: 50%; 
+    transform: translate(-57%, -55%); 
+    margin-top: var(--space2x);
+}
 
+.titre__creations{
+    font-family: Raleway;
+   font-style: semi-bold;
+   font-size: 14px;
+   width: 169px;
+   height: 41px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute; 
+   top: 111%; 
+   left: 48%; 
+   transform: translate(-50%, -50%); 
+    margin-top: var(--space5x);
+    z-index: 2;
+    text-align: center;
+}
