@@ -4,7 +4,7 @@
     font-size: var(--text-s);
     line-height: 130%;
     padding: var(--space1x);
-    
+    padding-left: var(--space2x);
     display: flex;
     flex-direction: column;
     justify-content: center;
