@@ -95,3 +95,50 @@
     top: -10px;
 
 }
+
+.description{
+    font-family: Raleway;
+    font-style: italic;
+    font-size: var(--text-s);
+    position: relative;
+    height: 24px;
+    margin-left: 15px;
+    justify-self: center;
+    
+}
+
+.image__article{
+    width: 105px;
+    height: 132px;
+    position: absolute;
+    margin-top: var(--space1x);
+    margin-left: var(--space1x);
+}
+
+.texte__article{
+    font-family: Lato;
+    font-style: normal;
+    font-size: var(--text-xs);
+    width: 235px;
+    height: 134px;
+    position: relative;
+    margin-left: 128px;
+    line-height: 160%;
+}
+
+.bouton{
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: Lato;
+    font-size: var(--text-xs);
+    width: 105px;
+    height: 28px;
+    background-color: var(--brown-color);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--white-color);
+    text-align: center;
+    overflow:hidden;
+}
+
+
