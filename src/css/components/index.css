@@ -104,6 +104,7 @@
     height: 24px;
     margin-left: 15px;
     justify-self: center;
+    bottom: 10px;
     
 }
 
@@ -113,6 +114,7 @@
     position: absolute;
     margin-top: var(--space1x);
     margin-left: var(--space1x);
+    border-radius: 16%;
 }
 
 .texte__article{
@@ -139,6 +141,16 @@
     color: var(--white-color);
     text-align: center;
     overflow:hidden;
+    position: relative;
+    left: 300px;
+    top: -20px;
 }
 
+.fleche{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 90px;
+    top: 5px;
+}
 
