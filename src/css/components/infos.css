@@ -1,0 +1,69 @@
+.informations,
+.informations__dates,
+.informations__horaires,
+.informations__tarifs
+ {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.informations__dates__moda{
+    text-decoration: none;
+    font-family: Lato;
+    font-style: light;
+    font-size: var(--text-xs);
+    margin-top: 20px;
+}
+
+
+
+.informations__dates__decor{
+margin-top: 1px;
+    z-index: 1;
+    position: relative; 
+    top: 10%; 
+    left: 50%; 
+    transform: translate(-57%, -55%); 
+    margin-top: var(--space2x);
+    
+}
+
+.informations__dates__titre{
+    font-family: Raleway;
+   font-style: semi-bold;
+   font-size: 14px;
+   transform: translate(-57%, -50%);
+   left: 170px;
+    z-index: 2;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.informations__dates__titre--dates{
+    margin-bottom: 10px;
+}
+
+.informations__dates__titre--horaires{
+    margin-bottom: 10px;
+}
+
+.informations__dates__titre--tarifs{
+    margin-bottom: 10px;
+}
+
+.informations__horaires{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.billetterie__btn{
+    display: block;
+    margin-left: 135px;
+    margin-right: 135px;
+    width : 210px;
+    
+}
