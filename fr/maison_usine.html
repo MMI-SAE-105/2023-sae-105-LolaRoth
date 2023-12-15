@@ -8,65 +8,86 @@
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="/"></a>
+    <header class="header">
+        <div class="header__nom">
             
-            <img src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de wright">
+            
+            <img class="header__logo" src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de wright">
     
-        </div>
-        <div>
-            <button>
-            <img src="/public/assets/icones/Menu.svg" alt="Menu déroulant">
+        
+    
+            <a href="/" class="header__menu"></a>
+            <img class="header__menu-bouton" src="/public/assets/icones/Menu.svg" alt="Menu déroulant">
             </button>
         </div>
     
         </header>
 
-        <section>
+        <main class="accueil">
+        <section class="architecte">
 
-        <img src="/public/img/maison-usine.webp" alt="Photo de la maison usine">
+        <img class="picture" src="/public/img/maison-usine.webp" alt="Photo de la maison usine">
 
-        <div>
-            <img src="/public/assets/icones/Line 4.svg" alt="Ligne de décor">
-            <h2>La maison usine</h2>
-            <img src="/public/assets/icones/Line 4.svg" alt="Ligne de décor">
+        <div class="architecte__section">
+            <img class="ligne1"src="/public/assets/icones/Line 4.svg" alt="Ligne de décor">
+            <h2 class="inter__titre">La maison usine</h2>
+            <img class="ligne 2"src="/public/assets/icones/Line 4.svg" alt="Ligne de décor">
         </div>
 
         <div>
-            <p>La Maison-Usine, une création révolutionnaire de Frank Lloyd Wright, est bien plus qu'une simple habitation.
+            <p class="créa__texte">
+                La Maison-Usine, une création révolutionnaire de Frank Lloyd Wright, est bien plus qu'une simple habitation.
+            </p>
+
+            <p class="créa__texte">
                 Construite à l'origine comme un lieu de travail et de vie pour la famille de l'industriel Hibbard en 1906, elle défie les conventions de l'époque en fusionnant habilement la fonctionnalité industrielle avec le confort résidentiel.
+            </p>
+
+            <p class="créa__texte">
                 Située à Chicago, cette maison expérimentale évoque l'esprit novateur de Wright. 
+            </p>
+
+            <p class="créa__texte">
                 Ses vastes espaces ouverts, ses grandes fenêtres et son utilisation audacieuse de matériaux comme le béton armé révèlent une vision avant-gardiste.
             </p>
         </div>
 
         <div>
-            <img src="/public/img/maison-usine-2.webp" alt="Photo de la maison d'usine ">
-            <p>La Maison-Usine illustre parfaitement le concept de l'architecture organique de Wright, où chaque élément est conçu pour servir un objectif précis tout en étant en harmonie avec son environnement. 
+            <img class="picture" src="/public/img/maison-usine-2.webp" alt="Photo de la maison d'usine ">
+            <p class="créa__texte">
+                La Maison-Usine illustre parfaitement le concept de l'architecture organique de Wright, où chaque élément est conçu pour servir un objectif précis tout en étant en harmonie avec son environnement. 
+            </p>
+
+            <p class="créa__texte">
                 Ce lieu témoigne de la manière dont l'architecture peut repenser les normes établies pour créer des espaces à la fois fonctionnels et esthétiques.
             </p>
         </div>
 
         <div>
-            <img src="/public/img/maison-usine-3.webp" alt="Phto de la maison de nuit">
-            <p>Explorez ce monument architectural révolutionnaire, imprégné de l'essence même du génie de Wright, et découvrez comment cette maison-usine a repoussé les frontières de la conception architecturale, offrant une expérience visuelle et conceptuelle unique.
+            <img class="picture" src="/public/img/maison-usine-3.webp" alt="Phto de la maison de nuit">
+            <p class="créa__texte">
+                Explorez ce monument architectural révolutionnaire, imprégné de l'essence même du génie de Wright, et découvrez comment cette maison-usine a repoussé les frontières de la conception architecturale, offrant une expérience visuelle et conceptuelle unique.
             </p>
         </div>
-        
+        <a class="bouton__item"href="/fr/maison_indiana.html">Autre oeuvre</a>
         </section>
-        <a href="/">Autre oeuvre</a>
+        </main>
+        
 
-        <footer>
-            <img src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de Wright">
-            <h2>Contact</h2>
-            <h2>A propos</h2>
-            <img src="/public/assets/icones/Insta.svg" alt="Logo instagram">
-            <img src="/public/assets/icones/Youtube.svg" alt="Logo youtube">
-            <img src="/public/assets/icones/Twitter.svg" alt="Logo twitter">
-            <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de
+        <footer class="footer">
+            <img class="footer__logo" src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de Wright">
+            <h2 class="footer__cat"><a href="contact.html"></a>Contact</h2>
+            <h2 class="footer__cat"><a href="a-propos.html"></a>A propos</h2>
+            
+            <div class="footer_reseaux">
+            <img class="footer__reseaux--i" src="/public/assets/icones/Insta.svg" alt="Logo instagram">
+            <img class="footer__reseaux--y" src="/public/assets/icones/Youtube.svg" alt="Logo youtube">
+            <img class="footer__reseaux--x" src="/public/assets/icones/Twitter.svg" alt="Logo twitter">
+            <h3 class="footer__mention">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de
                 Montbéliard
-            </p>
+            </h3>
+            </div>
+    
         </footer>
 </body>
 </html>
