@@ -11,16 +11,30 @@
 <body>
 
     <header class="header">
-        <div class="header__nom">
-            
-            
+        <div class="header__nom"> 
             <img class="header__logo" src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de wright">
-    
-        
-    
-            <a href="/" class="header__menu"></a>
+            <button 
+            aria-controls="mainNav"
+            @click="menuIsOpen = ! menuIsOpen"
+            class="header_menuBtn">
             <img class="header__menu-bouton" src="/public/assets/icones/Menu.svg" alt="Menu déroulant">
-            </button>
+        </button>
+    
+             
+            <nav
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.800ms
+            class="menu">
+    
+            <ul class="categorie">
+                <li class="text_menu"><a href="/fr/frank.html">Frank Wright</a></li>
+                <li class="text_menu"><a href="/fr/creations.html">Créations</a></li>
+                <li class="text_menu"><a href="/fr/infos.html">Infos pratiques</a></li>
+                <li class="text_menu"><a href="/fr/contact.html">Contact</a></li>
+            </ul>
+    
+            </nav>
         </div>
     
         </header>
