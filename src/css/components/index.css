@@ -291,4 +291,10 @@
     margin-left: var(--space1x);
 }
 
+.bouton__suite{
+    position: relative;
+    left: 280px;
+    align-items: center;
+    top: -10px;
+}
 
