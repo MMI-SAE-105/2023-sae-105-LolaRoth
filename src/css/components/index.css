@@ -86,6 +86,17 @@
     
 }
 
+.inter__titre--bio{
+    font-family: Raleway;
+    font-style: semi-bold;
+    font-size: var(--text-s);
+    width: 200px;
+    height: 43px;
+    display: flex;
+    margin-right: var(--space1x);
+    margin-left: var(--space1x);
+    margin-top: var(--space1x);
+}
 .ligne2{
     display: flex;
     bottom: 2px;
