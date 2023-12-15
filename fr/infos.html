@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infos pratiques</title>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css"">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="/"></a>
+    <header class="header">
+        <div class="header__nom">
             
-            <img src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de wright">
+            
+            <img class="header__logo" src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de wright">
     
-        </div>
-        <div>
-            <button>
-            <img src="/public/assets/icones/Menu.svg" alt="Menu déroulant">
+        
+    
+            <a href="/" class="header__menu"></a>
+            <img class="header__menu-bouton" src="/public/assets/icones/Menu.svg" alt="Menu déroulant">
             </button>
         </div>
     
@@ -87,16 +87,21 @@
         <a href="/">Billetterie</a>
     </section>
 
-    <footer>
-        <img src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de Wright">
-        <h2>Contact</h2>
-        <h2>A propos</h2>
-        <img src="/public/assets/icones/Insta.svg" alt="Logo instagram">
-        <img src="/public/assets/icones/Youtube.svg" alt="Logo youtube">
-        <img src="/public/assets/icones/Twitter.svg" alt="Logo twitter">
-        <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de
+    <footer class="footer">
+        <img class="footer__logo" src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de Wright">
+        <h2 class="footer__cat"><a href="contact.html"></a>Contact</h2>
+        <h2 class="footer__cat"><a href="a-propos.html"></a>A propos</h2>
+        
+        <div class="footer_reseaux">
+        <img class="footer__reseaux--i" src="/public/assets/icones/Insta.svg" alt="Logo instagram">
+        <img class="footer__reseaux--y" src="/public/assets/icones/Youtube.svg" alt="Logo youtube">
+        <img class="footer__reseaux--x" src="/public/assets/icones/Twitter.svg" alt="Logo twitter">
+        <h3 class="footer__mention">Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de
             Montbéliard
-        </p>
+        </h3>
+        </div>
+        
+
     </footer>
 </body>
 </html>
