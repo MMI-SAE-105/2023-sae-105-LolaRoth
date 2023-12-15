@@ -3,3 +3,17 @@ footer{
     position: relative;
     margin: 0;
 }
+
+.footer__logo{
+    width: 186px;
+    height: 30px;
+    top: 5px;
+    position: relative;
+}
+
+.footer__cat{
+    font-family: Lato;
+    font-style: light;
+    font-size: 15px;
+    text-align: center;
+}
