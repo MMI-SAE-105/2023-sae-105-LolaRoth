@@ -97,6 +97,15 @@
     margin-left: var(--space1x);
     margin-top: var(--space1x);
 }
+.inter__titre--oeuvre{
+    width: 230px;
+    height: 43px;
+    display: flex;
+    margin-right: var(--space1x);
+    margin-left: var(--space1x);
+    margin-top: var(--space1x);
+   
+}
 .ligne2{
     display: flex;
     bottom: 2px;
