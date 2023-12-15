@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +18,28 @@
 
     
 
-        <a href="/" class="header__menu"></a>
+        <button 
+        aria-controls="mainNav"
+        @click="menuIsOpen = ! menuIsOpen"
+        class="header_menuBtn">
         <img class="header__menu-bouton"src="/public/assets/icones/Menu.svg" alt="Menu déroulant">
-        </button>
+    </button>
+
+         
+        <nav
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.800ms
+        class="menu">
+
+        <ul class="categorie">
+            <li class="text_menu"><a href="/fr/frank.html"></a>Frank Wright</li>
+            <li class="text_menu"><a href="/fr/creations.html"></a>Créations</li>
+            <li class="text_menu"><a href="/fr/infos.html"></a>Infos pratiques</li>
+            <li class="text_menu"><a href="/fr/contact.html"></a>Contact</li>
+        </ul>
+
+        
     </div>
 
     </header>
