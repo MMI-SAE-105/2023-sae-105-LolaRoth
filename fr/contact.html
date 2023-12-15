@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
-<body>
+<body >
     <header class="header">
         <div class="header__nom">
             
@@ -22,20 +22,21 @@
         </div>
     
         </header>
+        <main class="accueil">
         <h2 class="formulaire">Si vous avez des questions ou des remarques</h2>
 
         <form action="#">
             <div class="formulaire__nom">
                 <label class="formulaire__nom__texte" for="nom">Nom</label>
-                <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                <input type="text" id="nom" name="nom" placeholder="Ex : Lombard">
             </div>
             <div class="formulaire__nom">
                 <label class="formulaire__nom__texte" for="prenom">Prénom</label>
-                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+                <input type="text" id="prenom" name="prenom" placeholder="Ex : Rémi">
             </div>
             <div class="formulaire__nom">
                 <label class="formulaire__nom__texte" for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Votre email">
+                <input type="email" id="email" name="email" placeholder="email@gmail.com">
             </div>
             <div class="formulaire__nom">
                 <label class="formulaire__nom__texte" for="message">Message</label>
@@ -43,7 +44,10 @@
             </div>
         </form>
         
+        <div class="envoyer">
         <a class="bouton__item" href="/404.html">Envoyer</a>
+        </div>
+        </main>
 
         <footer class="footer">
             <img class="footer__logo" src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de Wright">
