@@ -33,3 +33,73 @@
     z-index: 2;
     text-align: center;
 }
+
+.biblio{
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.carroussel__image{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    align-items: center;
+}
+
+.carrousel_parent-ecrans {
+    /* aligne horizontalement les enfants */
+    /* largeur du parent */
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    
+  }
+
+  .carrousel_ecran {
+    /* largeur du parent pour chaque enfant */
+    /* permet de garder toute la largeur du parent */
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+    
+  }
+  .carrousel_ecran figure {
+    /* enlève les marges par défaut */
+    margin: none;
+    
+  }
+  .carrousel {
+    position: relative;
+  }
+
+  .carrousel_btn {
+    position: absolute;
+    top: 50%;
+    top: calc(
+      min(30px, 5vw) / 16 * 9 / 2 + 1rem
+    ); /* centre verticalement ~50% vertical */
+    transform: translateY(-50%); /* methode du point mort */
+    width: 1rem;
+    height: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: #fff;
+  }
+
+  .carrousel_btn-avant {
+    left: 0;
+  }
+
+  .carrousel_btn-apres {
+    right: 0;
+  }
+ 

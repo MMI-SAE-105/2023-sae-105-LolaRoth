@@ -54,28 +54,63 @@
             <img class="sous__titre__decor"src="/public/assets/icones/Ellipse 2.svg" alt="element de decor">
             <h2 class="sous__titre__texte">Ses créations</h2>
         </div>
-
-        <div>
-        <img src="/public/img/maison-de-frank-l.webp" alt="Maison de Frank">
-        <p>Frank House, 1889</p>
-
-        <img src="/public/img/Carroussel 2.webp" alt="James camley house">
-        <p>James Chamley house, 1892</p>
-
-        <img src="/public/img/Carroussel 3.webp" alt="Larkin building">
-        <p>Larkin building, 1904</p>
-
-        <img src="/public/img/Carroussel 4.webp" alt="Hôtel impérial">
-        <p>Hôtel impérial, 1921</p>
-
-        <img src="/public/img/carroussel 5.webp" alt="Johnson Wax">
-        <p>Johnson Wax, 1939</p>
-
-        <img src="/public/img/Carroussel 6.webp" alt="Eglise">
-        <p>Eglise de l’Annonciation, 1961</p>
-        </div>
-        <a href="creations.html">En savoir plus</a>
     </section>
+
+    <section class="biblio">
+        <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
+            <button
+              @click="p=$refs.parent;p.scrollLeft-=p.clientWidth"
+              class="carrousel_btn carrousel_btn-avant"
+              aria-label="slide précedant"
+            >
+              &lt;
+            </button>
+            <button
+              @click="p=$refs.parent;p.scrollLeft+=p.clientWidth"
+              class="carrousel_btn carrousel_btn-apres"
+              aria-label="slide suivant"
+            >
+              >
+            </button>
+            <div class="carrousel_parent-ecrans" x-ref="parent"
+              @scroll.debounce.250ms.passive="
+              hrefCourant = '#'+
+                        [...$refs.parent.children]
+                         .find(e=>e.getBoundingClientRect().x>=0)
+                         .id">
+    
+        <div id="ecran-1" class="carrousel_ecran">
+        <img class="carroussel__image"src="/public/img/maison-de-frank-l.webp" alt="Maison de Frank">
+        <p class="description">Frank House, 1889</p>
+        </div>
+
+        <div id="ecran-2" class="carrousel_ecran">
+        <img class="carroussel__image" src="/public/img/Carroussel 2.webp" alt="James camley house">
+        <p class="description">James Chamley house, 1892</p>
+        </div>
+
+        <div id="ecran-3" class="carrousel_ecran">
+        <img class="carroussel__image" src="/public/img/Carroussel 3.webp" alt="Larkin building">
+        <p class="description">Larkin building, 1904</p>
+        </div>
+
+        <div id="ecran-4" class="carrousel_ecran">
+        <img class="carroussel__image" src="/public/img/Carroussel 4.webp" alt="Hôtel impérial">
+        <p class="description">Hôtel impérial, 1921</p>
+        </div>
+
+        <div id="ecran-5" class="carrousel_ecran">
+        <img class="carroussel__image" src="/public/img/carroussel 5.webp" alt="Johnson Wax">
+        <p class="description">Johnson Wax, 1939</p>
+        </div>
+
+        <div id="ecran-6" class="carrousel_ecran">
+        <img class="carroussel__image" src="/public/img/Carroussel 6.webp" alt="Eglise">
+        <p class="description">Eglise de l’Annonciation, 1961</p>
+        </div>
+        
+    </section>
+    <a href="creations.html">En savoir plus</a>
 
     <footer>
         <img src="/public/assets/icones/l'art de wright.svg" alt="Logo L'art de Wright">
