@@ -82,17 +82,17 @@
     position: absolute;
     top: 50%;
     top: calc(
-      min(30px, 5vw) / 16 * 9 / 2 + 1rem
+      min(3px, 1vw) 
     ); /* centre verticalement ~50% vertical */
     transform: translateY(-50%); /* methode du point mort */
     width: 1rem;
     height: 1rem;
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--black-color);
     border-radius: 50%;
     border: none;
     display: grid;
     place-content: center;
-    color: #fff;
+    color: var(--white-color);
   }
 
   .carrousel_btn-avant {
