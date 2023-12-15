@@ -336,9 +336,7 @@
     top: -10px;
 }
 
-.text__menu{
-    background-color: black;
-    list-style-type: none;
+.text_menu{
     text-decoration: none;
     cursor: pointer;
     
@@ -356,5 +354,5 @@
     margin-left: var(--space1x);
     margin-top: var(--space1x);
     margin-bottom: var(--space1x);
-    text-decoration: none;
+    list-style-type: none;
 }
