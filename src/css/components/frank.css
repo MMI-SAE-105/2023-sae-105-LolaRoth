@@ -1,0 +1,35 @@
+.bio__texte{
+    font-family: Lato;
+    font-style: normal;
+    font-size: var(--text-xs);
+    margin : var(--space1x);
+    line-height: 160%;
+}
+
+.sous__titre__decor{
+    margin-top: 5px;
+    z-index: 1;
+    position: relative; 
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-57%, -55%); 
+    margin-top: var(--space2x);
+}
+
+.sous__titre__texte{
+    font-family: Raleway;
+   font-style: semi-bold;
+   font-size: 14px;
+   width: 169px;
+   height: 41px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute; 
+   top: 66%; 
+   left: 48%; 
+   transform: translate(-50%, -50%); 
+    margin-top: var(--space5x);
+    z-index: 2;
+    text-align: center;
+}
