@@ -8,3 +8,11 @@
     max-height: 100vh;
     border-radius: 5px;
 }
+
+.image__biblio{
+    
+    border-radius: 5px;
+    width: 170px;
+    height: 119px;
+    /* Adjust as needed */
+}
