@@ -1,3 +1,5 @@
+
+
 .texte__intro{
     font-family: Raleway;
     font-style: regular;
@@ -9,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
+    margin-top: var(--space3x);
     
 }
 
@@ -38,8 +41,9 @@
     position: relative; 
     top: 70%; 
     left: 50%; 
-    transform: translate(-57%, -55%); 
+    transform: translate(-57%, -150%); 
     margin-top: 80px;
+    
 }
 
 .texte__date{
@@ -355,4 +359,25 @@
     margin-top: var(--space1x);
     margin-bottom: var(--space1x);
     list-style-type: none;
+}
+
+.texte__milieu{
+    font-family: Raleway;
+    font-style: normal;
+    font-size: var(--text-l);
+    width: 235px;
+    height: 52px;
+    margin-top: 130px;
+    z-index: 2;
+    margin-left: 70px;
+    
+}
+
+.titre__creations--top{
+    top: 30px;
+    position: absolute; /* Positionne le texte par rapport à l'ellipse */
+    top: 72%; /* Centre le texte verticalement */
+    left: 48%; /* Centre le texte horizontalement */
+    transform: translate(-50%, -50%); 
+    font-size: var(--text-l);
 }
