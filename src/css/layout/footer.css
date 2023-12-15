@@ -2,12 +2,12 @@ footer {
   background-color: var(--main-color);
   position: relative;
   margin: 0px;
-  padding: 20px;
+  padding: var(--space2x);
 }
 
 .footer__logo {
   width: 186px;
-  height: 30px;
+  height: var(--space3x);
   top: 5px;
   position: relative;
 }
@@ -20,17 +20,17 @@ footer {
   text-decoration: none;
   color: var(--white-color);
   line-height: 200%;
-  margin-top: 30px;
+  margin-top: var(--space3x);
 }
 
 .footer__reseaux {
   margin: auto;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: var(--space1x);
   align-items: center;
-  left: 30px;
-  margin-top: 10px;
+  left: var(--space3x);
+  margin-top: var(--space1x);
 }
 
 .footer__mention {
@@ -45,4 +45,8 @@ footer {
   text-align: center;
   text-decoration: none;
   margin-bottom: 50px;
+}
+
+.img__footer__reseaux{
+    margin-right: var(--space2x);
 }
