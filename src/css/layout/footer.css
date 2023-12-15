@@ -12,8 +12,37 @@ footer{
 }
 
 .footer__cat{
-    font-family: Lato;
+    font-family: Raleway;
     font-style: light;
     font-size: 15px;
     text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    line-height: 200%;
+    margin-top: 30px;
+    
 }
+
+.footer__reseaux{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+   left: 30px;
+   margin-top: 10px;
+}
+
+.footer__mention{
+    margin-top: 15px;
+    font-family: Raleway;
+    font-style: light;
+    font-size: 14px;
+    color: white;
+    top:10px;
+    width: 348px;
+    height: 33px;
+    text-align: center;
+
+}
+
