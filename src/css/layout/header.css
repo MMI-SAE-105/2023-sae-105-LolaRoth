@@ -21,7 +21,25 @@ header{
     top: var(--space1x);
 }
 
-.header__menuBtn{
+.header_menuBtn{
     cursor: pointer;
     text-decoration: none;
+    color: inherit;
+}
+
+.header__nom{
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+.header_menuBtn {
+    background: none; 
+    border: none; 
+    padding: 0; 
+    margin: 0; 
+    font: inherit;
+    cursor: pointer; 
+    color: inherit; 
+    outline: none; 
 }

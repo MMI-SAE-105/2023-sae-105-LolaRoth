@@ -1,10 +1,16 @@
 
-body, html{
+body{
     height: 100%;
     max-width: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 400px;
 }
 
 .texte__intro{
@@ -349,10 +355,25 @@ body, html{
 
 .text_menu{
     text-decoration: none;
-    cursor: pointer;
-    
+    cursor: pointer;   
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
+.text_menu--item{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--white-color);
+}
+
+.menu{
+    list-style-type: none;
+    text-decoration: none;
+}
 
 
 .categorie{
@@ -363,6 +384,7 @@ body, html{
     margin-top: var(--space1x);
     margin-bottom: var(--space1x);
     list-style-type: none;
+    text-decoration: none;
 }
 
 .texte__milieu{
