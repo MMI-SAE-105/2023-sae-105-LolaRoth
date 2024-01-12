@@ -5,21 +5,21 @@ header{
     margin: 0;
     max-width: 100%;
     box-sizing: border-box;
-    overflow: auto;
+    height: auto;
 }
 
 
 
 .header__logo{
     left: var(--space1x);
-    top: var(--space2x);
-
+   
+    margin-top: 5vw;
 }
 
 .header__menu-bouton{
     position: absolute;
     right: var(--space2x);
-    top: var(--space1x);
+    top: 25px ;
 }
 
 .header_menuBtn{

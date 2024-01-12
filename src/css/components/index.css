@@ -10,7 +10,7 @@ body{
 html{
     box-sizing: border-box;
     max-width: 100%;
-    width: 400px;
+    
 }
 
 .accueil{
@@ -22,8 +22,9 @@ html{
     padding: 0;
     max-width: 100%;
     box-sizing: border-box;
-    overflow: auto;
-
+    overflow-x: hidden;
+    overflow: hidden;
+    
 }
 
 
@@ -32,13 +33,14 @@ html{
     font-style: regular;
     font-size: var(--text-s);
     line-height: 130%;
-    padding: var(--space1x);
-    padding-left: var(--space2x);
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-    margin-top: var(--space3x);
+    margin-top: var(--space1x);
+    text-align: center;
+    margin-bottom: 30px;
     
 }
 
@@ -60,16 +62,20 @@ html{
    
 }
 
-
+.conteneur{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
 
 .elipse{
     margin-top: 22px;
     z-index: 1;
     position: relative; 
-    top: 70%; 
+    top: 20px;
     left: 50%; 
     transform: translate(-57%, -150%); 
-    margin-top: 80px;
+    
     
 }
 
@@ -414,10 +420,10 @@ html{
 }
 
 .titre__creations--top{
-    top: 30px;
+    top: 60px;
     position: absolute; /* Positionne le texte par rapport à l'ellipse */
-    top: 72%; /* Centre le texte verticalement */
-    left: 48%; /* Centre le texte horizontalement */
+    top: 77%; /* Centre le texte verticalement */
+    left: 45%; /* Centre le texte horizontalement */
     transform: translate(-50%, -50%); 
     font-size: var(--text-l);
 }

@@ -6,7 +6,9 @@
   padding: 0;
   
 }
-
+body{
+  overflow-x: hidden;
+}
 .accueil{
     background-color: var(--background-color);
     max-width: 100%;
