@@ -23,3 +23,8 @@
     max-height: 100vh;
     padding: 10px 7px;
 }
+
+.image{
+   
+    max-width: 100%;
+}

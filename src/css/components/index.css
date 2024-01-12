@@ -13,6 +13,20 @@ html{
     width: 400px;
 }
 
+.accueil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+
+}
+
+
 .texte__intro{
     font-family: Raleway;
     font-style: regular;
