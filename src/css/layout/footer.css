@@ -3,6 +3,7 @@ footer {
   position: relative;
   margin: 0px;
   padding: var(--space2x);
+  max-width: 100%;
 }
 
 .footer__logo {

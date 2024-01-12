@@ -3,7 +3,11 @@ header{
     position: sticky;
     z-index: 100;
     margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
 }
+
+
 
 .header__logo{
     left: var(--space1x);
@@ -17,3 +21,7 @@ header{
     top: var(--space1x);
 }
 
+.header__menuBtn{
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,4 +1,11 @@
 
+body, html{
+    height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .texte__intro{
     font-family: Raleway;
@@ -346,10 +353,7 @@
     
 }
 
-.header__menuBtn{
-    cursor: pointer;
-    text-decoration: none;
-}
+
 
 .categorie{
     font-family: Raleway;
